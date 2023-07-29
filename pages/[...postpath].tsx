@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://en.dailystars.net/' + encodeURI(path as string)
+					'http://en.dailystars.net/' + encodeURI(path as string)
 				}`,
 			},
 		};
